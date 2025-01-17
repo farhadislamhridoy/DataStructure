@@ -45,7 +45,7 @@ void numberset() {
     }
     cout << endl;
 
-    // Free the allocated memory using `delete`
+    // Freeing the allocated memory
     while (head != NULL) {
         temp = head;
         head = head->next;
